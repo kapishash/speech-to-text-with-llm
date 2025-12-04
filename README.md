@@ -46,13 +46,18 @@ It is a complete end-to-end voice understanding pipeline suitable for customer s
 ```bash
 git clone https://github.com/kapishash/speech-to-text-with-llm.git
 cd speech-to-text-with-llm
+```
 
+### 2. Create Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
-
-
+```
+### 3. Install Dependencies
+```bash
 pip install sounddevice numpy librosa torch soundfile transformers
-
-
+```
+### Run the Project
+```bash
 python scripts.py
-
+```
